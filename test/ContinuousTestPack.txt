@@ -1,1 +1,4 @@
 TestRatStomach2D_Monodomain_Imtiaz_v1.hpp
+TestSolveLaplaceLongitudinal_Rat_2D.hpp
+TestSolveLaplaceCircumferential_Rat_2D.hpp
+TestGenerateFibreSheetNormal_Rat_2D.hpp
