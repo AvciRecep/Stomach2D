@@ -126,7 +126,7 @@ public:
 
     ///// Output file/folder
     string out_path = "test_stomach2d_monodomain_"+fname+"_"+std::to_string(sim_dur)+"ms_"+std::to_string(print_step)+"ms";
-    string out_add = "_imtiaz_test1";
+    string out_add = "_imtiaz";
     HeartConfig::Instance()->SetOutputDirectory(out_path+out_add);
     HeartConfig::Instance()->SetOutputFilenamePrefix("results");
     HeartConfig::Instance()->SetOutputUsingOriginalNodeOrdering(true);
