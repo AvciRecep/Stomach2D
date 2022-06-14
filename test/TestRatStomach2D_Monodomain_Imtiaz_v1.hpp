@@ -91,15 +91,9 @@ public:
       return new CellDummyCellFromCellML(mpSolver, mpZeroStimulus);
     }
     double r = 0.2;
-    // for rat_scaffold_32_32_2_2D
     double xv = 0.06;
     double yv = -1.42;
     double zv = -2.54;
-
-    // // for rat_scaffold_64_64_2_2D
-    // double xv = 0.03;
-    // double yv = -1.09;
-    // double zv = -1.88;
 
     if (((x-xv)*(x-xv)+(y-yv)*(y-yv)+(z-zv)*(z-zv)) < r*r)
     {
