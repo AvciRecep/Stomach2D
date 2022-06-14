@@ -121,7 +121,7 @@ public:
     HeartConfig::Instance()->SetMeshFileName("projects/mesh/Stomach2D/"+fname, cp::media_type::Orthotropic);
 
     ///// Simulation settings
-    int sim_dur = 120000; //ms
+    int sim_dur = 90000; //ms
     int print_step = 1000; //ms
     HeartConfig::Instance()->SetSurfaceAreaToVolumeRatio(2000);
     HeartConfig::Instance()->SetUseAbsoluteTolerance(2e-3);
@@ -132,7 +132,7 @@ public:
 
     ///// Output file/folder
     string out_path = "test_stomach2d_monodomain_"+fname+"_"+std::to_string(sim_dur)+"ms_"+std::to_string(print_step)+"ms";
-    string out_add = "_imtiaz";
+    string out_add = "_imtiaz_test1";
     HeartConfig::Instance()->SetOutputDirectory(out_path+out_add);
     HeartConfig::Instance()->SetOutputFilenamePrefix("results");
     HeartConfig::Instance()->SetOutputUsingOriginalNodeOrdering(true);

@@ -1,3 +1,1 @@
-TestRatStomach2D_Monodomain_Imtiaz_v0.hpp
 TestRatStomach2D_Monodomain_Imtiaz_v1.hpp
-TestRatStomach2D_Monodomain_CB_v0.hpp
